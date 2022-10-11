@@ -10,7 +10,6 @@ public class acessoEnpointEValidacao {
     @Given("que seja acessado API {string}")
     public void queSejaAcessadoAPI(String url) {
         component = new components(url);
-        component.endpointReturn();
     }
 
     @When("for validado o valor do campo name que seja igual a {string}")
